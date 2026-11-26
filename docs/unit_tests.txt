@@ -1,0 +1,15 @@
+test_checkpoint_metadata_prevents_seed_mislabeling (test_core.CoreTests) ... ok
+test_four_symmetry_settings_update_with_finite_losses (test_core.CoreTests) ... ok
+test_gae_bootstraps_branches_separately (test_core.CoreTests) ... ok
+test_metrics_ignore_post_failure_resets (test_core.CoreTests) ... ok
+test_mirror_is_involution_for_entire_history (test_core.CoreTests) ... ok
+test_mirrored_transition_uses_executed_action (test_core.CoreTests) ... ok
+test_single_branch_terminal_gae (test_core.CoreTests) ... ok
+test_successor_encoder_excludes_privileged_velocity (test_core.CoreTests) ... ok
+test_summary_seed_std_and_duplicate_rejection (test_core.CoreTests) ... ok
+test_variant_evaluation_has_equal_full_difficulty (test_core.CoreTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.028s
+
+OK

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "robot": "g1",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "train": {
+    "num_envs": 4096,
+    "iterations": 5000
+  },
+  "evaluation": {
+    "num_envs": 1000,
+    "horizon_s": 20.0,
+    "seed": 12345,
+    "upper_ratio": 1.0
+  },
+  "variants": {
+    "full": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": true,
+      "symmetry_loss": true
+    },
+    "no_curriculum": {
+      "curriculum": false,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": true,
+      "symmetry_loss": true
+    },
+    "range_curriculum": {
+      "curriculum": true,
+      "upper_sampling": "range_limited",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": true,
+      "symmetry_loss": true
+    },
+    "no_knee": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": 0.0,
+      "augmentation": true,
+      "symmetry_loss": true
+    },
+    "no_knee_high_height": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 4.0,
+      "knee_weight": 0.0,
+      "augmentation": true,
+      "symmetry_loss": true
+    },
+    "augmentation_only": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": true,
+      "symmetry_loss": false
+    },
+    "loss_only": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": false,
+      "symmetry_loss": true
+    },
+    "no_symmetry": {
+      "curriculum": true,
+      "upper_sampling": "full_support",
+      "height_weight": 2.0,
+      "knee_weight": -0.75,
+      "augmentation": false,
+      "symmetry_loss": false
+    },
+    "baseline": {
+      "curriculum": false,
+      "upper_sampling": "full_support",
+      "height_weight": 0.0,
+      "knee_weight": 0.0,
+      "augmentation": false,
+      "symmetry_loss": false
+    }
+  }
+}

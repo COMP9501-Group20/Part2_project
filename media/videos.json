@@ -1,0 +1,62 @@
+[
+  {
+    "id": "g1",
+    "simulator": "Isaac Gym",
+    "title": "Unitree G1: locomotion and height control",
+    "title_zh": "Unitree G1：行走与高度控制",
+    "category": "supplementary_simulation_demo",
+    "path": "videos/g1.mp4",
+    "bytes": 36716963,
+    "sha256": "f3832084a2505256752ef2dd7e799a9dc39be006525528d08e9d90b874122661",
+    "duration_seconds": 17.267,
+    "downloaded_date": "2026-11-26"
+  },
+  {
+    "id": "gr1",
+    "simulator": "Isaac Gym",
+    "title": "Fourier GR-1: locomotion and height control",
+    "title_zh": "Fourier GR-1：行走与高度控制",
+    "category": "supplementary_simulation_demo",
+    "path": "videos/gr1.mp4",
+    "bytes": 45770560,
+    "sha256": "a92544c1956b67682b1e2aa5023859d940177f4d6c53eb3862211a3d09e70860",
+    "duration_seconds": 18.1,
+    "downloaded_date": "2026-11-26"
+  },
+  {
+    "id": "g1sim",
+    "simulator": "GRUtopia",
+    "title": "Unitree G1: scene demonstration",
+    "title_zh": "Unitree G1：场景演示",
+    "category": "supplementary_simulation_demo",
+    "path": "videos/g1sim.mp4",
+    "bytes": 5640338,
+    "sha256": "53af550f15f58d0acc6257fe268295bf6723bcda24606f96073eeb9e95973af2",
+    "duration_seconds": 24.467,
+    "downloaded_date": "2026-11-26"
+  },
+  {
+    "id": "gr1sim",
+    "simulator": "GRUtopia",
+    "title": "Fourier GR-1: scene demonstration",
+    "title_zh": "Fourier GR-1：场景演示",
+    "category": "supplementary_simulation_demo",
+    "path": "videos/gr1sim.mp4",
+    "bytes": 5991831,
+    "sha256": "c2b6293e414f3d6da27b147763b69b1e9b4024e1a48fceb852e0feabe4fb62a5",
+    "duration_seconds": 24.667,
+    "downloaded_date": "2026-11-26"
+  },
+  {
+    "id": "g1tasksim",
+    "simulator": "GRUtopia",
+    "title": "Loco-manipulation task demonstration",
+    "title_zh": "移动操作任务演示",
+    "category": "supplementary_simulation_demo",
+    "path": "videos/g1tasksim.mp4",
+    "bytes": 6700809,
+    "sha256": "0cb0ebb20d086c0b2fb245952590d0f48e7961eac8e09d3103538039ac617b68",
+    "duration_seconds": 27.6,
+    "downloaded_date": "2026-11-26"
+  }
+]

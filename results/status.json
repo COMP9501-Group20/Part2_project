@@ -1,0 +1,8 @@
+{
+  "status": "not_run",
+  "training_runs": 0,
+  "evaluation_runs": 0,
+  "real_robot_experiments": 0,
+  "reason": "No training logs or checkpoints supplied; Isaac Gym unavailable in the assembly environment.",
+  "supplementary_videos": "README.md#simulation-demos"
+}
